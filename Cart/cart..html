@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart – Brandify</title>
+
+    <link rel="stylesheet" href="cart.css" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script defer src="cart.js"></script>
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo"><a href="/">Brandify</a></div>
+        <div class="search-filter-group">
+            <input type="text" class="search-bar" placeholder="Search products..." />
+            <select class="filter-dropdown-inside">
+                <option value="">All</option>
+                <option value="electronics">Electronics</option>
+                <option value="fashion">Fashion</option>
+                <option value="books">Books</option>
+                <option value="home">Home</option>
+            </select>
+        </div>
+
+        <nav class="nav-links">
+            <a href="/">Home</a>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#pricing">Premium Plans</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a href="/Cart/cart..html">
+            <button class="btn-cart">
+                <span class="cart-icon">🛒</span> Cart
+            </button>
+        </a>
+    </header>
+
+<main>
+    <!-- Cart Container -->
+    <section class="cart-container">
+        <div class="cart-header">
+            <h2>Your Cart</h2>
+        </div>
+
+        <!-- Cart Items -->
+        <div class="cart-items">
+            <div class="cart-item">
+                <img src="https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/1.webp" alt="Product Image" />
+                <div class="cart-item-info">
+                    <h3>Product Name</h3>
+                    <p>Product Description</p>
+                    <span class="price">$49.99</span>
+                </div>
+                <div class="cart-item-actions">
+                    <button class=" del">Remove</button>
+                </div>
+            </div>
+            
+            <div class="cart-item">
+                <img src="https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/1.webp" alt="Product Image" />
+                <div class="cart-item-info">
+                    <h3>Product Name</h3>
+                    <p>Product Description</p>
+                    <span class="price">$29.99</span>
+                </div>
+                <div class="cart-item-actions">
+                    <button class="del">Remove</button>
+                </div>
+            </div>
+
+            <!-- Add more cart items here -->
+        </div>
+
+        <!-- Cart Total Section -->
+        <div class="cart-total">
+            <p>Total: $79.98</p>
+            <button class="proced">Proceed to Checkout</button>
+        </div>
+    </section>
+</main>
+
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-top">
+        <div class="footer-logo">
+            <img src="logo.png" alt="Logo" />
+            <p>Brandify</p>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Brandify. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Cart Button -->
+<div class="cart-btn">
+    <i class="cart-icon">🛒</i> Cart
+</div>
+
+
+</body>
+
+</html>

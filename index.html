@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brandify – Elevate Your Workflow</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Boost your productivity with Brandify – modern tools, elegant design, and powerful features.">
+    <meta name="keywords" content="productivity, SaaS, workflow, modern tools, Brandify, landing page">
+    <meta name="author" content="Brandify Team">
+
+    <!-- Open Graph Meta -->
+    <meta property="og:title" content="Brandify – Elevate Your Workflow">
+    <meta property="og:description" content="Streamline your day with intuitive tools and beautiful design.">
+    <meta property="og:image" content="https://source.unsplash.com/600x400/?technology,productivity">
+    <meta property="og:url" content="https://yourdomain.com">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" />
+
+    <!-- CSS & JS -->
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+
+    <!-- Smooth Scrolling -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo"><a href="#Brandify">Brandify</a></div>
+        <div class="search-filter-group">
+            <input type="text" class="search-bar" placeholder="Search products..." />
+            <select class="filter-dropdown-inside">
+                <option value="">All</option>
+                <option value="electronics">Electronics</option>
+                <option value="fashion">Fashion</option>
+                <option value="books">Books</option>
+                <option value="home">Home</option>
+            </select>
+        </div>
+
+        <nav class="nav-links">
+            <a href="#Brandify">Home</a>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#pricing">Premium Plans</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a href="/Cart/cart..html">
+            <button class="btn-cart">
+                <span class="cart-icon">🛒</span> Cart
+            </button>
+        </a>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="Brandify" class="hero">
+        <div class="hero-text">
+            <h1>Shop Smart, Live Better</h1>
+            <p>Discover the best deals and latest trends with Brandify – your go-to destination for everything stylish
+                and affordable.</p>
+            <button class="btn-secondary">Start Shopping</button>
+
+        </div>
+        <div class="hero-img">
+            <img src="https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/1.webp"
+                alt="Hero Image" loading="lazy">
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Brandify</h2>
+        <p>At Brandify, we're passionate about bringing you the best in online shopping. From quality products to
+            seamless service, our mission is to deliver a smart, reliable, and enjoyable shopping experience for
+            everyone.</p>
+    </section>
+
+
+    <!-- Products Section (E-commerce Look) -->
+    <section id="products" class="products">
+        <h2>Featured Products</h2>
+        <div class="product-grid" id="productGrid">
+            <!-- Products will be injected here dynamically -->
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>Why Shop with Brandify?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3>Seamless Shopping Experience</h3>
+                <p>Navigate effortlessly with our clean, user-friendly interface tailored for smooth browsing and quick
+                    checkouts.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Fast & Reliable Delivery</h3>
+                <p>Get your orders delivered on time, every time — because we value your time and trust.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Secure Payments</h3>
+                <p>Shop confidently with top-grade payment protection and data security at every step.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing-section">
+        <h2 class="section-title">Shop Smart with Brandify Deals</h2>
+        <p class="section-subtitle">Pick the best value pack that suits your shopping habits.</p>
+
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3 class="plan-title">Starter Pack</h3>
+                <p class="plan-price">$9<span> / one-time</span></p>
+                <ul class="plan-features">
+                    <li>Includes 3 essential items</li>
+                    <li>Standard delivery</li>
+                    <li>Email support</li>
+                </ul>
+                <button class="btn-secondary">Buy Now</button>
+            </div>
+
+            <div class="pricing-card popular">
+                <div class="ribbon">Best Value</div>
+                <h3 class="plan-title">Smart Shopper Pack</h3>
+                <p class="plan-price">$29<span> / one-time</span></p>
+                <ul class="plan-features">
+                    <li>Includes 10 premium items</li>
+                    <li>Free express delivery</li>
+                    <li>Exclusive shopping perks</li>
+                    <li>Priority support</li>
+                </ul>
+                <button class="btn-primary">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact ">
+        <div class=" contact_first_div">
+            <h2>Get in Touch with Brandify</h2>
+            <p>Have a question or need assistance? We're here to help!</p>
+        </div>
+
+        <form>
+            <input type="text" placeholder="Your Full Name" required />
+            <input type="email" placeholder="Your Email Address" required />
+            <textarea placeholder="What can we assist you with?" rows="4" required></textarea>
+            <button class="btn-primary" type="submit">Send Message</button>
+        </form>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-logo">
+                <img src="https://via.placeholder.com/150" alt="Brandify Logo">
+                <p>Elevating your shopping experience, one click at a time.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: support@brandify.com</p>
+                <p>Phone: +1 234 567 890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Brandify. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

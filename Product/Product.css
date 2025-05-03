@@ -1,0 +1,153 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f7fa;
+    color: #333;
+}
+.product-meta {
+    background: #fdfdfd;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.05);
+    margin-top: 2rem;
+  }
+  
+  .meta-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .meta-list li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .meta-list li span {
+    font-weight: 600;
+    margin-right: 0.5rem;
+    min-width: 150px;
+    display: inline-block;
+  }
+  
+  .qr-code {
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+  
+  .product-reviews {
+    margin-top: 3rem;
+  }
+  
+  .review-card {
+    background: #f5f8ff;
+    padding: 1rem;
+    border-left: 4px solid #4a90e2;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .review-comment {
+    font-style: italic;
+    color: #333;
+  }
+  
+.product-detail {
+    max-width: 89rem;
+    display: flex;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-detail-container {
+    max-width: 89rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-detail-container-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product-extra-details {
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .review {
+    background: #f9f9f9;
+    border-left: 4px solid #ccc;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+  }
+  
+.product-detail-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.product-detail-container p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.product-detail-info {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.product-detail-info span {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+#product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+}
+
+.bc {
+    border: 2ps solid red;
+}
+
+.btn-secondary {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.7rem 1.4rem;
+    background-color: #4b47ff;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #2c28cc;
+}

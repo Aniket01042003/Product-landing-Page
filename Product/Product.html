@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/Product/Product.css" />
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo"><a href="/">Brandify</a></div>
+        <div class="search-filter-group">
+            <input type="text" class="search-bar" placeholder="Search products..." />
+            <select class="filter-dropdown-inside">
+                <option value="">All</option>
+                <option value="electronics">Electronics</option>
+                <option value="fashion">Fashion</option>
+                <option value="books">Books</option>
+                <option value="home">Home</option>
+            </select>
+        </div>
+
+        <nav class="nav-links">
+            <a href="/">Home</a>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#pricing">Premium Plans</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a href="/Cart/cart..html">
+            <button class="btn-cart">
+                <span class="cart-icon">🛒</span> Cart
+            </button>
+        </a>
+    </header>
+
+    <div class="product-detail-container  " >
+        <div class="product-detail">
+            <div class=" product-detail-container-desc " >
+                <h1 id="product-title">Loading...</h1>
+                <p id="product-description"></p>
+                <div class="product-detail-info">
+                    <span id="product-price"></span>
+                    <span id="product-rating"></span>
+                </div>
+            </div>
+            <div class="" >
+                <img id="product-image" src="" alt="Product Image" />
+            </div>
+            <!-- <a href="index.html" class="btn-secondary">← Back to Home</a> -->
+        </div>
+    </div>
+</body>
+<script defer src="product.js"></script>
+
+</html>
